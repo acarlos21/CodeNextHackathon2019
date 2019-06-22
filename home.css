@@ -5,6 +5,13 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+h1 {
+  font-family: 'Exo 2', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
 
 body {
   text-align: center;
@@ -17,4 +24,5 @@ nav ul li {
   border: 3px solid black;
   padding: 5px 5px 5px 5px;
   margin: 20px;
+  font-family: 'Raleway', sans-serif;
 }
