@@ -11,3 +11,10 @@ body {
   background-color: #bcf4f0;
   margin:30px;
 }
+
+nav ul li {
+  display:inline;
+  border: 1px solid grey;
+  padding: 20px 5px 0px 5px;
+  margin:0 10px;
+}
