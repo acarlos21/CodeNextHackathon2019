@@ -1,0 +1,36 @@
+html,body {
+  margin: 0;
+}
+
+#header {
+  background-color: lightgray;
+}
+
+.listing {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  solid red;
+  width:80vw;
+  margin-top:5%;
+  margin-left:10vw;
+  margin-right:10vw;
+  display:flex;
+}
+
+.image {
+  /* border:1px solid black; */
+  width:40%;
+}
+
+.info {
+  /* border:1px solid red; */
+  width:60%;
+  padding:16px
+}
+
+.apartment_style {
+  font-size:25px
+}
+
+.apartment_cost {
+  font-size:20px
+}
