@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>sign-up</title>
+  </head>
+  <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBPRtDMjy-6nqvbJLAXlkmr5JUXG0T0kYo",
+    authDomain: "hackathon-70ccb.firebaseapp.com",
+    databaseURL: "https://hackathon-70ccb.firebaseio.com",
+    projectId: "hackathon-70ccb",
+    storageBucket: "",
+    messagingSenderId: "958921110515",
+    appId: "1:958921110515:web:525755b2ab4a6918"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+function writeData() {
+  firebase.database().ref("User").set({
+    name: document.getElementById(nameField),
+    age: ""
+  })
+}
+
+</script>
+  <h1>User Database</h1>
+  <input type = "text" placeholder= "name" id= "nameField">
+  <input type = "text" placeholder= "age" id= "ageField">
+  <button onclick="writeData"> Submit </button>
+  </body>
+</html>
