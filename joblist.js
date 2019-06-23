@@ -9,17 +9,17 @@ let jobs = {
   "two":{
     "title": "Wind Energy Technician",
     "Entry-level hourly wage":"$27.88",
-    "Typical qualifications" : "Associate's",
+    "Typical qualifications" : "Associate's degree",
   },
 
   "three":{
-    "title": "Wind Energy Technician",
+    "title": "Computer Network Support Specialist",
     "Entry-level hourly wage":"$18.40",
     "Typical qualifications" : "Associate's degree",
   },
 
   "four":{
-    "title": "Web Designer",
+    "title": "Web Designer or Devloper",
     "Entry-level hourly wage":"$18.24",
     "Typical qualifications" : "Associate's degree or Bachelor's degree",
   },
@@ -57,7 +57,45 @@ let jobs = {
   "ten":{
     "title": "Plumber",
     "Entry-level hourly wage":"$15.43",
+    "Typical qualifations": "Vocational certificate and paid apprenticeship",
   },
+
+  "eleven":{
+    "title": "Writer",
+    "Entry-level hourly wage":"$15.24",
+    "Typical qualifications" : "Bachelor's degree is often preffered not always necessary",
+  },
+
+  "twelve":{
+    "title": "Grapic Designer",
+    "Entry-level hourly wage":"$14.23",
+    "Typical qualifications" : "Associate's or Bachelor's degree",
+  },
+
+  "thirteen":{
+    "title": "Capenter",
+    "Entry-level hourly wage":"$13.87",
+    "Typical qualifications" : "Vocational certifate and a paid apprenticeship",
+  },
+
+  "fourteen":{
+    "title": "Substance Abuse Counselor",
+    "Entry-level hourly wage":"$13.58",
+    "Typical qualifications" : "Anything from a post-secondary certificate to a master's degree (depending on the particular state, employer, and position)",
+  },
+
 }
-var job = jobs.one;
- console.log(job.title);
+var jobArray = Object.values(jobs);
+
+console.log(jobArray);
+
+for (x of jobArray) {
+	var paragraph = document.createElement("p");
+
+  var text = "Job Title" + x[]
+    var node = document.createTextNode(x);
+    paragraph.appendChild(node);
+
+    var element = document.getElementById("job");
+	element.appendChild(paragraph);
+}
