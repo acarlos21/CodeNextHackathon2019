@@ -1,14 +1,16 @@
-nav ul li {
+nav li {
   display: inline-flex;
   text-decoration: none;
   border-radius: 8px;
-  padding: 100px;
+  padding: 15px;
   margin: 20px;
   font-family: 'Raleway', sans-serif;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  background-color: #8309a5;
+  background-color: #9daec9;
 }
-
+a {
+  text-decoration: none;
+}
 body {
   background-image: linear-gradient(to right, #820f59, #b76b2d);
 }
