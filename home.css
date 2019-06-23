@@ -15,6 +15,12 @@ p {
   font-size: 20px;
 }
 
+.but {
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 8px;
+
+}
+
 a {color: #ffffff;
    text-decoration: none;
    }
@@ -23,6 +29,8 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin:30px;
+  background-image: url("https://thewallpaper.co//wp-content/uploads/2016/10/good-images-website-hd-wallpapers-4k-artwork-background-wallpapers-smart-phones-colourful-mac-desktop-images-digital-photos-1920x1080.jpg");
+
 }
 
 nav ul li {
