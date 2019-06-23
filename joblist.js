@@ -1,40 +1,40 @@
 //
 let jobs = {
-  "one":{
-    "title": "Mobile App developer",
-    "Entry-level hourly wage":"$29.64",
-    "Typical qualifications" : "Associate's or Bachelor's degree",
-  },
+  // "one":{
+  //   "title": "Mobile App developer",
+  //   "Entry-level hourly wage":"$29.64",
+  //   "Typical qualifications" : "Associate's or Bachelor's degree",
+  // },
+  //
+  // "two":{
+  //   "title": "Wind Energy Technician",
+  //   "Entry-level hourly wage":"$27.88",
+  //   "Typical qualifications" : "Associate's degree",
+  // },
 
-  "two":{
-    "title": "Wind Energy Technician",
-    "Entry-level hourly wage":"$27.88",
-    "Typical qualifications" : "Associate's degree",
-  },
+  // "three":{
+  //   "title": "Computer Network Support Specialist",
+  //   "Entry-level hourly wage":"$18.40",
+  //   "Typical qualifications" : "Associate's degree",
+  // },
 
-  "three":{
-    "title": "Computer Network Support Specialist",
-    "Entry-level hourly wage":"$18.40",
-    "Typical qualifications" : "Associate's degree",
-  },
+  // "four":{
+  //   "title": "Web Designer or Devloper",
+  //   "Entry-level hourly wage":"$18.24",
+  //   "Typical qualifications" : "Associate's degree or Bachelor's degree",
+  // },
 
-  "four":{
-    "title": "Web Designer or Devloper",
-    "Entry-level hourly wage":"$18.24",
-    "Typical qualifications" : "Associate's degree or Bachelor's degree",
-  },
+  // "five":{
+  //   "title": "Mechanical Engineering Technician",
+  //   "Entry-level hourly wage":"$16.78",
+  //   "Typical qualifications" : "Bachelor degree",
+  // },
 
-  "five":{
-    "title": "Mechanical Engineering Technician",
-    "Entry-level hourly wage":"$16.78",
-    "Typical qualifications" : "Bachelor degree",
-  },
-
-  "six":{
-    "title": "Marketing Specialist",
-    "Entry-level hourly wage":"$16.50",
-    "Typical qualifications" : "Bachelor's degree",
-  },
+  // "six":{
+  //   "title": "Marketing Specialist",
+  //   "Entry-level hourly wage":"$16.50",
+  //   "Typical qualifications" : "Bachelor's degree",
+  // },
 
   "seven":{
     "title": "Oil and Gas Derrick Operator",
