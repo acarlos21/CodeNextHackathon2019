@@ -29,8 +29,7 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin:30px;
-  background-image: url("https://thewallpaper.co//wp-content/uploads/2016/10/good-images-website-hd-wallpapers-4k-artwork-background-wallpapers-smart-phones-colourful-mac-desktop-images-digital-photos-1920x1080.jpg");
-
+  background-image: linear-gradient(to right, #91cad8, #65c66f);
 }
 
 nav ul li {
