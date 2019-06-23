@@ -36,37 +36,32 @@ let jobs = {
   //   "Typical qualifications" : "Bachelor's degree",
   // },
 
-  "seven":{
-    "title": "Oil and Gas Derrick Operator",
-    "Entry-level hourly wage":"$16.01",
-    "Typical qualifications" : "High school diploma or Vocational certifate",
-  },
+  // "seven":{
+  //   "title": "Oil and Gas Derrick Operator",
+  //   "Entry-level hourly wage":"$16.01",
+  //   "Typical qualifications" : "High school diploma or Vocational certifate",
+  // },
 
-  "eight":{
-    "title": "Electrian",
-    "Entry-level hourly wage":"$15.84",
-    "Typical qualifications" : "Vocational certifatea and paid apprenticeship",
-  },
+  // "eight":{
+  //   "title": "Electrian",
+  //   "Entry-level hourly wage":"$15.84",
+  //   "Typical qualifications" : "Vocational certifatea and paid apprenticeship",
+  // },
 
-  "nine":{
-    "title": "Commercial Diver",
-    "Entry-level hourly wage":"$14.81",
-    "Typical qualifications" : "Scuba Certification and vocational certification",
-  },
+  // "nine":{
+  //   "title": "Commercial Diver",
+  //   "Entry-level hourly wage":"$14.81",
+  //   "Typical qualifications" : "Scuba Certification and vocational certification",
+  // },
 
-  "ten":{
-    "title": "Plumber",
-    "Entry-level hourly wage":"$15.43",
-    "Typical qualifations": "Vocational certificate and paid apprenticeship",
-  },
+  // "ten":{
+  //   "title": "Plumber",
+  //   "Entry-level hourly wage":"$15.43",
+  //   "Typical qualifations": "Vocational certificate and paid apprenticeship",
+  // },
+
 
   "eleven":{
-    "title": "Writer",
-    "Entry-level hourly wage":"$15.24",
-    "Typical qualifications" : "Bachelor's degree is often preffered not always necessary",
-  },
-
-  "twelve":{
     "title": "Grapic Designer",
     "Entry-level hourly wage":"$14.23",
     "Typical qualifications" : "Associate's or Bachelor's degree",
@@ -78,11 +73,7 @@ let jobs = {
     "Typical qualifications" : "Vocational certifate and a paid apprenticeship",
   },
 
-  "fourteen":{
-    "title": "Substance Abuse Counselor",
-    "Entry-level hourly wage":"$13.58",
-    "Typical qualifications" : "Anything from a post-secondary certificate to a master's degree (depending on the particular state, employer, and position)",
-  },
+
 
 }
 var jobArray = Object.values(jobs);
