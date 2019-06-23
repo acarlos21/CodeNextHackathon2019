@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #ffffff;
+  margin:30px;
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+}
